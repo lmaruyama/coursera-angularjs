@@ -26,7 +26,7 @@
          <div class="form-group">
             <button class="btn btn-default" ng-click="checkIfTooMuch()"><span class="glyphicon glyphicon-apple" aria-hidden="true"></span> Check If Too Much</button>
          </div>
-         <div class="form-group message alert {{messageStyle}}">
+         <div class="form-group message alert" ng-class="messageStyle">
            <!-- Your message can go here. -->
            {{response}}
          </div>
